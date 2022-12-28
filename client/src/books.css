@@ -1,0 +1,126 @@
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.app {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.app .addHome {
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+}
+
+.app h1 {
+  margin-bottom: 50px;
+}
+
+.app .books {
+  display: flex;
+  text-align: start;
+}
+
+.app .books .book {
+  padding: 12px;
+  background: aliceblue;
+  border-radius: 10px;
+  width: 320px;
+  margin: 8px;
+}
+
+.app .books .book h2 {
+  margin: unset;
+  font-size: 16px;
+  width: -webkit-fill-available;
+}
+
+.app .books .book span {
+  width: -webkit-fill-available;
+}
+
+.app .books .book p {
+  width: -webkit-fill-available;
+  height: 139px;
+  overflow-y: scroll;
+}
+
+.app .books .book img {
+  border-radius: 10px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: -webkit-fill-available;
+  height: 258px;
+  background: white;
+  padding: 15px;
+}
+
+.app .books .book button {
+  padding: 6px 11px;
+  background-color: white;
+  cursor: pointer;
+  width: -webkit-fill-available;
+}
+
+.app .books .book .delete {
+  border: 1px solid rgb(245, 191, 191);
+  color: rgb(242, 100, 100);
+}
+
+.app .books .book .update {
+  border: 1px solid rgb(204, 204, 243);
+  color: rgb(139, 139, 234);
+}
+
+.app .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app .form input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.app .form textarea {
+  padding: 10px;
+}
+
+.app .form button {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=books.css.map */
